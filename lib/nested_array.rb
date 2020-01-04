@@ -26,12 +26,11 @@ end
 
 def matrix_lookup(matrix, row, column)
   lookup = matrix[row][column]
-  puts lookup
+  print lookup
 end
 
 def matrix_update(matrix, row, column, new_value)
-  result = matrix[row][column] = new_value
-  puts result
+  matrix[row][column] = new_value
 end
 
 matrix_lookup(assembled_matrix, 1, 1)
