@@ -31,7 +31,7 @@ end
 
 def matrix_update(matrix, row, column, new_value)
   result = matrix[row][column] = new_value
-  print result
+  puts result
 end
 
 matrix_lookup(assembled_matrix, 1, 1)
