@@ -35,4 +35,5 @@ end
 
 matrix_lookup(assembled_matrix, 1, 1)
 matrix_update(assembled_matrix, 0, 2, "Lemons")
+# IRB is flagging errors but when it's run in Repl.it the results match what the lab is looking for - unsure why two different venues are returning different results on same code?
 
