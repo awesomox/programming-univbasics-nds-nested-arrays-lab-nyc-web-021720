@@ -25,12 +25,12 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  puts matrix[row][column]
+  print matrix[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
   result = matrix[row][column] = new_value
-  puts result
+  print result
 end
 
 matrix_lookup(assembled_matrix, 1, 1)
